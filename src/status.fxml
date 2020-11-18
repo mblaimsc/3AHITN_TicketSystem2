@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.DropdownButton?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Status">
+   <children>
+      <Label layoutX="14.0" layoutY="33.0" text="StatiNr.:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="33.0" />
+      <Label layoutX="14.0" layoutY="78.0" text="offen:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="78.0" />
+      <Label layoutX="14.0" layoutY="125.0" text="in Arbeit:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="125.0" />
+      <Label layoutX="14.0" layoutY="176.0" text="im Test:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="176.0" />
+      <Label layoutX="14.0" layoutY="226.0" text="Probleme/Rückfragen:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="226.0" />
+      <Label layoutX="14.0" layoutY="273.0" text="in Begutachtung:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="273.0" />
+      <Label layoutX="14.0" layoutY="318.0" text="erledigt:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="318.0" />
+      <Label layoutX="14.0" layoutY="368.0" text="TicketNr.:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="368.0" />
+      <TextField layoutX="166.0" layoutY="29.0" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="29.0" />
+      <CheckBox layoutX="166.0" layoutY="70.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="70.0" />
+      <CheckBox layoutX="166.0" layoutY="125.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="125.0" />
+      <CheckBox layoutX="166.0" layoutY="176.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="176.0" />
+      <CheckBox layoutX="166.0" layoutY="226.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="226.0" />
+      <CheckBox layoutX="166.0" layoutY="273.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="273.0" />
+      <CheckBox layoutX="166.0" layoutY="318.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="318.0" />
+      <DropdownButton layoutX="167.0" layoutY="363.0" AnchorPane.leftAnchor="167.0" AnchorPane.topAnchor="363.0">
+          <items>
+              <MenuItem text="Choice 1" />
+              <MenuItem text="Choice 2" />
+              <MenuItem text="Choice 3" />
+          </items>
+      </DropdownButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.DropdownButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="645.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ticket">
+   <children>
+      <Label layoutX="14.0" layoutY="47.0" text="TicketNr.:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="47.0" />
+      <Label layoutX="14.0" layoutY="81.0" text="Name:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="81.0" />
+      <Label layoutX="14.0" layoutY="124.0" text="Beschreibung:" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="124.0" />
+      <Label layoutX="19.0" layoutY="372.0" prefHeight="0.0" prefWidth="63.0" text="Ticket-Typ:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="372.0" />
+      <Label layoutX="19.0" layoutY="434.0" text="Fälligkeitsdatum:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="434.0" />
+      <Label layoutX="19.0" layoutY="493.0" text="AuftragsNr.:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="493.0" />
+      <Label layoutX="19.0" layoutY="545.0" text="KommentarNr.:" AnchorPane.leftAnchor="19.0" AnchorPane.topAnchor="545.0" />
+      <DatePicker layoutX="116.0" layoutY="430.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="430.0" />
+      <TextField layoutX="116.0" layoutY="43.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="43.0" />
+      <TextField layoutX="116.0" layoutY="77.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="77.0" />
+      <TextField layoutX="116.0" layoutY="368.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="368.0" />
+      <TextArea layoutX="116.0" layoutY="124.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="124.0" />
+      <DropdownButton layoutX="116.0" layoutY="493.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="493.0">
+          <items>
+              <MenuItem text="Choice 1" />
+              <MenuItem text="Choice 2" />
+              <MenuItem text="Choice 3" />
+          </items>
+      </DropdownButton>
+      <DropdownButton layoutX="116.0" layoutY="545.0" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="545.0">
+         <items>
+            <MenuItem text="Choice 1" />
+            <MenuItem text="Choice 2" />
+            <MenuItem text="Choice 3" />
+         </items>
+      </DropdownButton>
+   </children>
+</AnchorPane>
